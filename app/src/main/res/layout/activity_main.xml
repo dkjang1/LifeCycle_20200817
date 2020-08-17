@@ -11,6 +11,11 @@
 
     <!--STEP3:LinearLayout-->
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데스트용"/>
+
     <Button
         android:id="@+id/otherActivityBtn"
         android:layout_width="match_parent"
