@@ -11,10 +11,16 @@
 
     <!--STEP3:LinearLayout-->
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="색상변경 테스트"
+        android:textColor="@color/black" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="데스트용"/>
+        android:text="테스트용" />
 
     <Button
         android:id="@+id/otherActivityBtn"

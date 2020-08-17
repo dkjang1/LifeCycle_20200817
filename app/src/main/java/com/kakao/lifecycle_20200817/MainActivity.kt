@@ -3,6 +3,7 @@ package com.kakao.lifecycle_20200817
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
 
 //STEP2:MainActivity-BaseActivity,setupEvents,setValues
@@ -13,6 +14,8 @@ class MainActivity : BaseActivity() {
 
         setupEvents()
         setValues()
+
+        Log.d("메인화면","onCreate 실행됨")
     }
 
     override fun setupEvents() {
