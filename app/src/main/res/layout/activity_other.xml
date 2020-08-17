@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity">
-
-    <!--STEP3:LinearLayout-->
+    tools:context=".OtherActivity">
 
     <Button
-        android:id="@+id/otherActivityBtn"
+        android:id="@+id/backToMainBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="다른화면으로 이동하기" />
+        android:text="메인으로 복귀하기" />
 
 </LinearLayout>
